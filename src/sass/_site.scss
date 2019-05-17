@@ -1,0 +1,32 @@
+.panel{
+	height: 100vh;
+}
+#big-head{
+	border:1px solid #ccc;
+	//border-radius: 1em;
+	box-shadow: 0 0 10px rgba(#000, .2);
+	background:#000;
+
+	position: relative;
+	display: block;
+	height: 100vh;
+
+	perspective: 300px;
+	overflow: hidden;
+	img{
+		position: relative;
+		z-index: 100;
+	}
+
+	.text{
+		font-size: 1em;
+		transform:rotate(90deg);
+		display: inline-block;
+		position: absolute;
+		animation-name:text-drop;
+	}
+}
+
+.full-screen{
+	height: 100vh;
+}
