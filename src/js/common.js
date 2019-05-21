@@ -12,7 +12,9 @@ $(function(){
 		updateHash: true,
 		touchScroll:true,
 		before:function() {},
-		after:function() {},
+		after:function(index, sections) {
+			$(sections[index]).addClass('visited');
+		},
 		afterResize:function() {},
 		afterRender:function() {}
 		});
@@ -55,13 +57,13 @@ $(function(){
 
 	var backgroundTextColors = ['#00ff00', '#fff', '#ffff00'];
 
-	backgroundAnimation({
+	/*backgroundAnimation({
 		container:'#big-head',
 		speed:10000,
 		density:40,
 		text:skills,
 		colors:backgroundTextColors
-	});
+	});*/
 })
 
 function backgroundAnimation(obj){
@@ -69,13 +71,21 @@ function backgroundAnimation(obj){
 	if(container!=null){
 		var containerWidth = container.clientWidth;
 		var skillsCount = obj.text.length;
+		var skillsDom = [];
 		var colorsCount = obj.colors.length;
+
+
+		for(var i=0; i<skillsCount; i++){
+			var dom = document.createElement('span');
+			var domText = document.createTextNode(obj.text[i]);
+			dom.appendChild(domText);
+			dom.className = "text";
+			skillsDom.push(dom)
+		}
+
 		
 		setInterval(function(){
-			var text = obj.text[Math.floor(Math.random()*skillsCount)];
-			var dom = document.createElement('span')
-			var domText = document.createTextNode(text);
-
+			var dom = skillsDom[Math.floor(Math.random()*skillsCount)]
 			var domStyle = {
 				left:Math.random(),
 				color: obj.colors[Math.floor(Math.random()*colorsCount)],
@@ -83,9 +93,8 @@ function backgroundAnimation(obj){
 				deep:Math.floor(Math.random()*200)
 			}
 
-			dom.className = "text";
 			dom.setAttribute('style',`left:${domStyle.left*100}%; color:${domStyle.color}; animation-duration:${domStyle.duration}s; transform: translateZ(${domStyle.deep}px);`)
-			dom.appendChild(domText);
+			
 			container.appendChild(dom);
 			var removeIt = setTimeout(()=>{
 				dom.remove();

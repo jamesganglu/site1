@@ -1,0 +1,18 @@
+$colors: (
+    "color1": "#7FCDC4"
+);
+
+$primary: #127075;
+$secondary: #EFA44B;
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3)
+  );
+
+$font-family-base: Raleway, arial;

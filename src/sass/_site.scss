@@ -1,6 +1,11 @@
 .panel{
 	height: 100vh;
 }
+
+.full-screen{
+	height: 100vh;
+}
+
 #big-head{
 	border:1px solid #ccc;
 	//border-radius: 1em;
@@ -27,6 +32,42 @@
 	}
 }
 
-.full-screen{
-	height: 100vh;
+#bio-section{
+	.line-1{
+		font-size: 2.5rem;
+		margin-bottom: 1em;
+		animation-delay: 0s;
+		font-weight: bold;
+	}
+	.line-2{
+		font-size: 1rem;
+		animation-delay: .5s;
+	}
+	.line-3{
+		font-size: 1.4rem;
+		animation-delay: 1s;
+	}
+	.line-4{
+		font-size: 1.8rem;
+		animation-delay: 1.5s;
+	}
+	.line-5{
+		font-size: 2rem;
+		transform:translate(0, -1rem);
+		font-weight: bold;
+		animation-delay: 2s;
+	}
+
+	.to-show{
+		animation-fill-mode: forwards;
+		transform:translate(0, 1rem);
+		animation-duration:1s;
+		opacity: 0;
+	}
+
+	&.visited{
+		.to-show{
+			animation-name:text-present-1;
+		}
+	}
 }

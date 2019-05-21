@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i&display=swap";
 /* line 19, node_modules/bootstrap/scss/_reboot.scss */
 *,
 *::before,
@@ -22,7 +23,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 /* line 46, node_modules/bootstrap/scss/_reboot.scss */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Raleway, arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -139,14 +140,14 @@ sup {
 
 /* line 182, node_modules/bootstrap/scss/_reboot.scss */
 a {
-  color: #007bff;
+  color: #127075;
   text-decoration: none;
   background-color: transparent;
 }
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 a:hover {
-  color: #0056b3;
+  color: #083133;
   text-decoration: underline;
 }
 
@@ -422,8 +423,8 @@ template {
 /* line 25, node_modules/bootstrap/scss/_buttons.scss */
 .btn:focus, .btn.focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.25);
 }
 
 /* line 32, node_modules/bootstrap/scss/_buttons.scss */
@@ -440,85 +441,85 @@ fieldset:disabled a.btn {
 /* line 60, node_modules/bootstrap/scss/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #127075;
+  border-color: #127075;
 }
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #0d5054;
+  border-color: #0b4649;
 }
 
 /* line 18, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-primary:focus, .btn-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(54, 133, 138, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(54, 133, 138, 0.5);
 }
 
 /* line 29, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #127075;
+  border-color: #127075;
 }
 
 /* line 40, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf;
+  background-color: #0b4649;
+  border-color: #0a3b3e;
 }
 
 /* line 50, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(54, 133, 138, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(54, 133, 138, 0.5);
 }
 
 /* line 60, node_modules/bootstrap/scss/_buttons.scss */
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: #212529;
+  background-color: #EFA44B;
+  border-color: #EFA44B;
 }
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-secondary:hover {
-  color: #fff;
-  background-color: #5a6268;
-  border-color: #545b62;
+  color: #212529;
+  background-color: #ec9228;
+  border-color: #eb8c1c;
 }
 
 /* line 18, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-secondary:focus, .btn-secondary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(208, 145, 70, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(208, 145, 70, 0.5);
 }
 
 /* line 29, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-secondary.disabled, .btn-secondary:disabled {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: #212529;
+  background-color: #EFA44B;
+  border-color: #EFA44B;
 }
 
 /* line 40, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
-  color: #fff;
-  background-color: #545b62;
-  border-color: #4e555b;
+  color: #212529;
+  background-color: #eb8c1c;
+  border-color: #e68614;
 }
 
 /* line 50, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(208, 145, 70, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(208, 145, 70, 0.5);
 }
 
 /* line 60, node_modules/bootstrap/scss/_buttons.scss */
@@ -775,26 +776,26 @@ fieldset:disabled a.btn {
 
 /* line 66, node_modules/bootstrap/scss/_buttons.scss */
 .btn-outline-primary {
-  color: #007bff;
-  border-color: #007bff;
+  color: #127075;
+  border-color: #127075;
 }
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #127075;
+  border-color: #127075;
 }
 
 /* line 71, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.5);
 }
 
 /* line 76, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #007bff;
+  color: #127075;
   background-color: transparent;
 }
 
@@ -802,55 +803,55 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #127075;
+  border-color: #127075;
 }
 
 /* line 89, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.5);
 }
 
 /* line 66, node_modules/bootstrap/scss/_buttons.scss */
 .btn-outline-secondary {
-  color: #6c757d;
-  border-color: #6c757d;
+  color: #EFA44B;
+  border-color: #EFA44B;
 }
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-outline-secondary:hover {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: #212529;
+  background-color: #EFA44B;
+  border-color: #EFA44B;
 }
 
 /* line 71, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(239, 164, 75, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(239, 164, 75, 0.5);
 }
 
 /* line 76, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #6c757d;
+  color: #EFA44B;
   background-color: transparent;
 }
 
 /* line 82, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  color: #212529;
+  background-color: #EFA44B;
+  border-color: #EFA44B;
 }
 
 /* line 89, node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(239, 164, 75, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(239, 164, 75, 0.5);
 }
 
 /* line 66, node_modules/bootstrap/scss/_buttons.scss */
@@ -1096,13 +1097,13 @@ fieldset:disabled a.btn {
 /* line 77, node_modules/bootstrap/scss/_buttons.scss */
 .btn-link {
   font-weight: 400;
-  color: #007bff;
+  color: #127075;
   text-decoration: none;
 }
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-link:hover {
-  color: #0056b3;
+  color: #083133;
   text-decoration: underline;
 }
 
@@ -1204,39 +1205,39 @@ a.badge:hover, a.badge:focus {
 /* line 51, node_modules/bootstrap/scss/_badge.scss */
 .badge-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #127075;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #0062cc;
+  background-color: #0b4649;
 }
 
 /* line 11, node_modules/bootstrap/scss/mixins/_badge.scss */
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.5);
 }
 
 /* line 51, node_modules/bootstrap/scss/_badge.scss */
 .badge-secondary {
-  color: #fff;
-  background-color: #6c757d;
+  color: #212529;
+  background-color: #EFA44B;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 a.badge-secondary:hover, a.badge-secondary:focus {
-  color: #fff;
-  background-color: #545b62;
+  color: #212529;
+  background-color: #eb8c1c;
 }
 
 /* line 11, node_modules/bootstrap/scss/mixins/_badge.scss */
 a.badge-secondary:focus, a.badge-secondary.focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
-          box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(239, 164, 75, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(239, 164, 75, 0.5);
 }
 
 /* line 51, node_modules/bootstrap/scss/_badge.scss */
@@ -3007,26 +3008,26 @@ mark,
 
 /* line 6, node_modules/bootstrap/scss/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: #127075 !important;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #0062cc !important;
+  background-color: #0b4649 !important;
 }
 
 /* line 6, node_modules/bootstrap/scss/mixins/_background-variant.scss */
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #EFA44B !important;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #545b62 !important;
+  background-color: #eb8c1c !important;
 }
 
 /* line 6, node_modules/bootstrap/scss/mixins/_background-variant.scss */
@@ -3163,12 +3164,12 @@ button.bg-dark:focus {
 
 /* line 20, node_modules/bootstrap/scss/utilities/_borders.scss */
 .border-primary {
-  border-color: #007bff !important;
+  border-color: #127075 !important;
 }
 
 /* line 20, node_modules/bootstrap/scss/utilities/_borders.scss */
 .border-secondary {
-  border-color: #6c757d !important;
+  border-color: #EFA44B !important;
 }
 
 /* line 20, node_modules/bootstrap/scss/utilities/_borders.scss */
@@ -7271,22 +7272,22 @@ button.bg-dark:focus {
 
 /* line 6, node_modules/bootstrap/scss/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #007bff !important;
+  color: #127075 !important;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 a.text-primary:hover, a.text-primary:focus {
-  color: #0056b3 !important;
+  color: #083133 !important;
 }
 
 /* line 6, node_modules/bootstrap/scss/mixins/_text-emphasis.scss */
 .text-secondary {
-  color: #6c757d !important;
+  color: #EFA44B !important;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #494f54 !important;
+  color: #da7f13 !important;
 }
 
 /* line 6, node_modules/bootstrap/scss/mixins/_text-emphasis.scss */
@@ -7442,10 +7443,10 @@ a.text-dark:hover, a.text-dark:focus {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #80bdff;
+  border-color: #29d5de;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.25);
 }
 
 /* line 37, node_modules/bootstrap/scss/_forms.scss */
@@ -8069,36 +8070,36 @@ textarea.form-control {
 
 /* line 48, node_modules/bootstrap/scss/_alert.scss */
 .alert-primary {
-  color: #004085;
-  background-color: #cce5ff;
-  border-color: #b8daff;
+  color: #093a3d;
+  background-color: #d0e2e3;
+  border-color: #bdd7d8;
 }
 
 /* line 6, node_modules/bootstrap/scss/mixins/_alert.scss */
 .alert-primary hr {
-  border-top-color: #9fcdff;
+  border-top-color: #adcdcf;
 }
 
 /* line 10, node_modules/bootstrap/scss/mixins/_alert.scss */
 .alert-primary .alert-link {
-  color: #002752;
+  color: #021011;
 }
 
 /* line 48, node_modules/bootstrap/scss/_alert.scss */
 .alert-secondary {
-  color: #383d41;
-  background-color: #e2e3e5;
-  border-color: #d6d8db;
+  color: #7c5527;
+  background-color: #fceddb;
+  border-color: #fbe6cd;
 }
 
 /* line 6, node_modules/bootstrap/scss/mixins/_alert.scss */
 .alert-secondary hr {
-  border-top-color: #c8cbcf;
+  border-top-color: #f9dab5;
 }
 
 /* line 10, node_modules/bootstrap/scss/mixins/_alert.scss */
 .alert-secondary .alert-link {
-  color: #202326;
+  color: #553a1b;
 }
 
 /* line 48, node_modules/bootstrap/scss/_alert.scss */
@@ -8744,7 +8745,7 @@ textarea.form-control {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #127075;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -8752,7 +8753,7 @@ textarea.form-control {
 /* line 17, node_modules/bootstrap/scss/_pagination.scss */
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: #083133;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -8762,8 +8763,8 @@ textarea.form-control {
 .page-link:focus {
   z-index: 2;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(18, 112, 117, 0.25);
 }
 
 /* line 34, node_modules/bootstrap/scss/_pagination.scss */
@@ -8783,8 +8784,8 @@ textarea.form-control {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #127075;
+  border-color: #127075;
 }
 
 /* line 52, node_modules/bootstrap/scss/_pagination.scss */
@@ -8879,7 +8880,7 @@ textarea.form-control {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #007bff;
+  background-color: #127075;
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
@@ -8920,7 +8921,7 @@ textarea.form-control {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Raleway, arial;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9390,7 +9391,7 @@ textarea.form-control {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #007bff;
+  background-color: #127075;
 }
 
 /* line 160, node_modules/bootstrap/scss/_dropdown.scss */
@@ -9422,9 +9423,1089 @@ textarea.form-control {
   color: #212529;
 }
 
-/* line 26, src/sass/main.scss */
+/* line 29, src/sass/main.scss */
 img {
   max-width: 100%;
+}
+
+/* line 34, src/sass/main.scss */
+.size-1 {
+  font-size: 0.04688rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-1 {
+    font-size: 0.0625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-2 {
+  font-size: 0.09375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-2 {
+    font-size: 0.125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-3 {
+  font-size: 0.14063rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-3 {
+    font-size: 0.1875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-4 {
+  font-size: 0.1875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-4 {
+    font-size: 0.25rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-5 {
+  font-size: 0.23438rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-5 {
+    font-size: 0.3125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-6 {
+  font-size: 0.28125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-6 {
+    font-size: 0.375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-7 {
+  font-size: 0.32813rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-7 {
+    font-size: 0.4375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-8 {
+  font-size: 0.375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-8 {
+    font-size: 0.5rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-9 {
+  font-size: 0.42188rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-9 {
+    font-size: 0.5625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-10 {
+  font-size: 0.46875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-10 {
+    font-size: 0.625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-11 {
+  font-size: 0.51563rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-11 {
+    font-size: 0.6875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-12 {
+  font-size: 0.5625rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-12 {
+    font-size: 0.75rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-13 {
+  font-size: 0.60938rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-13 {
+    font-size: 0.8125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-14 {
+  font-size: 0.65625rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-14 {
+    font-size: 0.875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-15 {
+  font-size: 0.70313rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-15 {
+    font-size: 0.9375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-16 {
+  font-size: 0.75rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-16 {
+    font-size: 1rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-17 {
+  font-size: 0.79688rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-17 {
+    font-size: 1.0625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-18 {
+  font-size: 0.84375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-18 {
+    font-size: 1.125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-19 {
+  font-size: 0.89063rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-19 {
+    font-size: 1.1875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-20 {
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-20 {
+    font-size: 1.25rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-21 {
+  font-size: 0.98438rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-21 {
+    font-size: 1.3125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-22 {
+  font-size: 1.03125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-22 {
+    font-size: 1.375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-23 {
+  font-size: 1.07813rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-23 {
+    font-size: 1.4375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-24 {
+  font-size: 1.125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-24 {
+    font-size: 1.5rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-25 {
+  font-size: 1.17188rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-25 {
+    font-size: 1.5625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-26 {
+  font-size: 1.21875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-26 {
+    font-size: 1.625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-27 {
+  font-size: 1.26563rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-27 {
+    font-size: 1.6875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-28 {
+  font-size: 1.3125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-28 {
+    font-size: 1.75rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-29 {
+  font-size: 1.35938rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-29 {
+    font-size: 1.8125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-30 {
+  font-size: 1.40625rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-30 {
+    font-size: 1.875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-31 {
+  font-size: 1.45313rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-31 {
+    font-size: 1.9375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-32 {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-32 {
+    font-size: 2rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-33 {
+  font-size: 1.54688rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-33 {
+    font-size: 2.0625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-34 {
+  font-size: 1.59375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-34 {
+    font-size: 2.125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-35 {
+  font-size: 1.64063rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-35 {
+    font-size: 2.1875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-36 {
+  font-size: 1.6875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-36 {
+    font-size: 2.25rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-37 {
+  font-size: 1.73438rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-37 {
+    font-size: 2.3125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-38 {
+  font-size: 1.78125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-38 {
+    font-size: 2.375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-39 {
+  font-size: 1.82813rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-39 {
+    font-size: 2.4375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-40 {
+  font-size: 1.875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-40 {
+    font-size: 2.5rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-41 {
+  font-size: 1.92188rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-41 {
+    font-size: 2.5625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-42 {
+  font-size: 1.96875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-42 {
+    font-size: 2.625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-43 {
+  font-size: 2.01563rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-43 {
+    font-size: 2.6875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-44 {
+  font-size: 2.0625rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-44 {
+    font-size: 2.75rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-45 {
+  font-size: 2.10938rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-45 {
+    font-size: 2.8125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-46 {
+  font-size: 2.15625rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-46 {
+    font-size: 2.875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-47 {
+  font-size: 2.20313rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-47 {
+    font-size: 2.9375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-48 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-48 {
+    font-size: 3rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-49 {
+  font-size: 2.29688rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-49 {
+    font-size: 3.0625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-50 {
+  font-size: 2.34375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-50 {
+    font-size: 3.125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-51 {
+  font-size: 2.39063rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-51 {
+    font-size: 3.1875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-52 {
+  font-size: 2.4375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-52 {
+    font-size: 3.25rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-53 {
+  font-size: 2.48438rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-53 {
+    font-size: 3.3125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-54 {
+  font-size: 2.53125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-54 {
+    font-size: 3.375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-55 {
+  font-size: 2.57813rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-55 {
+    font-size: 3.4375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-56 {
+  font-size: 2.625rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-56 {
+    font-size: 3.5rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-57 {
+  font-size: 2.67188rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-57 {
+    font-size: 3.5625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-58 {
+  font-size: 2.71875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-58 {
+    font-size: 3.625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-59 {
+  font-size: 2.76563rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-59 {
+    font-size: 3.6875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-60 {
+  font-size: 2.8125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-60 {
+    font-size: 3.75rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-61 {
+  font-size: 2.85938rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-61 {
+    font-size: 3.8125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-62 {
+  font-size: 2.90625rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-62 {
+    font-size: 3.875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-63 {
+  font-size: 2.95313rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-63 {
+    font-size: 3.9375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-64 {
+  font-size: 3rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-64 {
+    font-size: 4rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-65 {
+  font-size: 3.04688rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-65 {
+    font-size: 4.0625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-66 {
+  font-size: 3.09375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-66 {
+    font-size: 4.125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-67 {
+  font-size: 3.14063rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-67 {
+    font-size: 4.1875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-68 {
+  font-size: 3.1875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-68 {
+    font-size: 4.25rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-69 {
+  font-size: 3.23438rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-69 {
+    font-size: 4.3125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-70 {
+  font-size: 3.28125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-70 {
+    font-size: 4.375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-71 {
+  font-size: 3.32813rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-71 {
+    font-size: 4.4375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-72 {
+  font-size: 3.375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-72 {
+    font-size: 4.5rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-73 {
+  font-size: 3.42188rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-73 {
+    font-size: 4.5625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-74 {
+  font-size: 3.46875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-74 {
+    font-size: 4.625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-75 {
+  font-size: 3.51563rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-75 {
+    font-size: 4.6875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-76 {
+  font-size: 3.5625rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-76 {
+    font-size: 4.75rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-77 {
+  font-size: 3.60938rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-77 {
+    font-size: 4.8125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-78 {
+  font-size: 3.65625rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-78 {
+    font-size: 4.875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-79 {
+  font-size: 3.70313rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-79 {
+    font-size: 4.9375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-80 {
+  font-size: 3.75rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-80 {
+    font-size: 5rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-81 {
+  font-size: 3.79688rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-81 {
+    font-size: 5.0625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-82 {
+  font-size: 3.84375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-82 {
+    font-size: 5.125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-83 {
+  font-size: 3.89063rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-83 {
+    font-size: 5.1875rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-84 {
+  font-size: 3.9375rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-84 {
+    font-size: 5.25rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-85 {
+  font-size: 3.98438rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-85 {
+    font-size: 5.3125rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-86 {
+  font-size: 4.03125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-86 {
+    font-size: 5.375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-87 {
+  font-size: 4.07813rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-87 {
+    font-size: 5.4375rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-88 {
+  font-size: 4.125rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-88 {
+    font-size: 5.5rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-89 {
+  font-size: 4.17188rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-89 {
+    font-size: 5.5625rem;
+  }
+}
+
+/* line 34, src/sass/main.scss */
+.size-90 {
+  font-size: 4.21875rem;
+}
+
+@media (min-width: 576px) {
+  /* line 34, src/sass/main.scss */
+  .size-90 {
+    font-size: 5.625rem;
+  }
 }
 
 @-webkit-keyframes text-drop {
@@ -9467,12 +10548,39 @@ img {
   }
 }
 
+@-webkit-keyframes text-present-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@keyframes text-present-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
 /* line 1, src/sass/_site.scss */
 .panel {
   height: 100vh;
 }
 
-/* line 4, src/sass/_site.scss */
+/* line 5, src/sass/_site.scss */
+.full-screen {
+  height: 100vh;
+}
+
+/* line 9, src/sass/_site.scss */
 #big-head {
   border: 1px solid #ccc;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -9486,13 +10594,13 @@ img {
   overflow: hidden;
 }
 
-/* line 16, src/sass/_site.scss */
+/* line 21, src/sass/_site.scss */
 #big-head img {
   position: relative;
   z-index: 100;
 }
 
-/* line 21, src/sass/_site.scss */
+/* line 26, src/sass/_site.scss */
 #big-head .text {
   font-size: 1em;
   -webkit-transform: rotate(90deg);
@@ -9503,7 +10611,59 @@ img {
           animation-name: text-drop;
 }
 
-/* line 30, src/sass/_site.scss */
-.full-screen {
-  height: 100vh;
+/* line 36, src/sass/_site.scss */
+#bio-section .line-1 {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  font-weight: bold;
+}
+
+/* line 42, src/sass/_site.scss */
+#bio-section .line-2 {
+  font-size: 1rem;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+/* line 46, src/sass/_site.scss */
+#bio-section .line-3 {
+  font-size: 1.4rem;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+/* line 50, src/sass/_site.scss */
+#bio-section .line-4 {
+  font-size: 1.8rem;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+/* line 54, src/sass/_site.scss */
+#bio-section .line-5 {
+  font-size: 2rem;
+  -webkit-transform: translate(0, -1rem);
+          transform: translate(0, -1rem);
+  font-weight: bold;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+/* line 61, src/sass/_site.scss */
+#bio-section .to-show {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transform: translate(0, 1rem);
+          transform: translate(0, 1rem);
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  opacity: 0;
+}
+
+/* line 69, src/sass/_site.scss */
+#bio-section.visited .to-show {
+  -webkit-animation-name: text-present-1;
+          animation-name: text-present-1;
 }
