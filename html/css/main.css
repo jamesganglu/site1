@@ -10657,24 +10657,40 @@ img {
 
 /* line 32, src/sass/_site.scss */
 #words-drop-section {
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  background: #000;
   position: relative;
   display: block;
   height: 100vh;
+  background: #000;
+  -webkit-transition: background 1s;
+  transition: background 1s;
   -webkit-perspective: 300px;
           perspective: 300px;
   overflow: hidden;
 }
 
-/* line 44, src/sass/_site.scss */
+/* line 38, src/sass/_site.scss */
+#words-drop-section h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  z-index: 100;
+  color: #DA3A3F;
+  opacity: 0;
+}
+
+/* line 54, src/sass/_site.scss */
 #words-drop-section img {
   position: relative;
   z-index: 100;
 }
 
-/* line 49, src/sass/_site.scss */
+/* line 59, src/sass/_site.scss */
 #words-drop-section .text {
   font-size: 1em;
   -webkit-transform: rotate(90deg);
@@ -10685,7 +10701,12 @@ img {
           animation-name: text-drop;
 }
 
-/* line 59, src/sass/_site.scss */
+/* line 68, src/sass/_site.scss */
+#words-drop-section.visited h2 {
+  opacity: 1;
+}
+
+/* line 75, src/sass/_site.scss */
 #bio-section .line-1 {
   font-size: 2.5rem;
   margin-bottom: 1em;
@@ -10694,28 +10715,28 @@ img {
   font-weight: bold;
 }
 
-/* line 65, src/sass/_site.scss */
+/* line 81, src/sass/_site.scss */
 #bio-section .line-2 {
   font-size: 1rem;
   -webkit-animation-delay: .5s;
           animation-delay: .5s;
 }
 
-/* line 69, src/sass/_site.scss */
+/* line 85, src/sass/_site.scss */
 #bio-section .line-3 {
   font-size: 1.4rem;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-/* line 73, src/sass/_site.scss */
+/* line 89, src/sass/_site.scss */
 #bio-section .line-4 {
   font-size: 1.8rem;
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
 }
 
-/* line 77, src/sass/_site.scss */
+/* line 93, src/sass/_site.scss */
 #bio-section .line-5 {
   font-size: 2rem;
   -webkit-transform: translate(0, -1rem);
@@ -10725,7 +10746,7 @@ img {
           animation-delay: 2s;
 }
 
-/* line 84, src/sass/_site.scss */
+/* line 100, src/sass/_site.scss */
 #bio-section .to-show {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
@@ -10736,13 +10757,13 @@ img {
   opacity: 0;
 }
 
-/* line 92, src/sass/_site.scss */
+/* line 108, src/sass/_site.scss */
 #bio-section.visited .to-show {
   -webkit-animation-name: text-present-1;
           animation-name: text-present-1;
 }
 
-/* line 101, src/sass/_site.scss */
+/* line 117, src/sass/_site.scss */
 .perspective {
   position: relative;
   -webkit-perspective: 800px;
@@ -10788,7 +10809,7 @@ img {
 	} */
 }
 
-/* line 146, src/sass/_site.scss */
+/* line 162, src/sass/_site.scss */
 .cube {
   -webkit-animation-name: spinning;
           animation-name: spinning;
@@ -10809,7 +10830,7 @@ img {
   transition: all .5s;
 }
 
-/* line 158, src/sass/_site.scss */
+/* line 174, src/sass/_site.scss */
 .cube > div {
   position: absolute;
   width: 100%;
@@ -10825,7 +10846,7 @@ img {
           align-items: center;
 }
 
-/* line 166, src/sass/_site.scss */
+/* line 182, src/sass/_site.scss */
 .cube .name {
   display: inline-block;
   padding: .1em .5em;
@@ -10836,21 +10857,21 @@ img {
   font-size: 34px;
 }
 
-/* line 176, src/sass/_site.scss */
+/* line 192, src/sass/_site.scss */
 .cube .front-pane {
   -webkit-transform: translateZ(100px);
           transform: translateZ(100px);
   background: rgba(249, 236, 208, 0.9);
 }
 
-/* line 180, src/sass/_site.scss */
+/* line 196, src/sass/_site.scss */
 .cube .back-pane {
   -webkit-transform: translateZ(-100px) rotateY(180deg);
           transform: translateZ(-100px) rotateY(180deg);
   background: rgba(18, 112, 117, 0.9);
 }
 
-/* line 184, src/sass/_site.scss */
+/* line 200, src/sass/_site.scss */
 .cube .right-pane {
   -webkit-transform: rotateY(-270deg) translateX(100px);
           transform: rotateY(-270deg) translateX(100px);
@@ -10859,7 +10880,7 @@ img {
   background: rgba(127, 205, 196, 0.8);
 }
 
-/* line 190, src/sass/_site.scss */
+/* line 206, src/sass/_site.scss */
 .cube .left-pane {
   -webkit-transform-origin: top left;
           transform-origin: top left;
@@ -10868,7 +10889,7 @@ img {
   background: rgba(239, 164, 75, 0.8);
 }
 
-/* line 195, src/sass/_site.scss */
+/* line 211, src/sass/_site.scss */
 .cube .top-pane {
   -webkit-transform: rotateX(-90deg) translateY(-100px);
           transform: rotateX(-90deg) translateY(-100px);
@@ -10877,7 +10898,7 @@ img {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* line 200, src/sass/_site.scss */
+/* line 216, src/sass/_site.scss */
 .cube .bottom-pane {
   -webkit-transform: rotateX(90deg) translateY(100px);
           transform: rotateX(90deg) translateY(100px);
@@ -10886,20 +10907,20 @@ img {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* line 208, src/sass/_site.scss */
+/* line 224, src/sass/_site.scss */
 .splash {
   text-align: center;
   margin-top: -100px;
 }
 
-/* line 211, src/sass/_site.scss */
+/* line 227, src/sass/_site.scss */
 .splash .site-name {
   font-size: 42px;
   font-weight: 700;
   color: #DA3A3F;
 }
 
-/* line 216, src/sass/_site.scss */
+/* line 232, src/sass/_site.scss */
 .splash h1 {
   font-size: 36px;
   color: #127075;
