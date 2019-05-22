@@ -9423,1086 +9423,1086 @@ textarea.form-control {
   color: #212529;
 }
 
-/* line 29, src/sass/main.scss */
+/* line 28, src/sass/main.scss */
 img {
   max-width: 100%;
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-1 {
   font-size: 0.04688rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-1 {
     font-size: 0.0625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-2 {
   font-size: 0.09375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-2 {
     font-size: 0.125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-3 {
   font-size: 0.14063rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-3 {
     font-size: 0.1875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-4 {
   font-size: 0.1875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-4 {
     font-size: 0.25rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-5 {
   font-size: 0.23438rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-5 {
     font-size: 0.3125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-6 {
   font-size: 0.28125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-6 {
     font-size: 0.375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-7 {
   font-size: 0.32813rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-7 {
     font-size: 0.4375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-8 {
   font-size: 0.375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-8 {
     font-size: 0.5rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-9 {
   font-size: 0.42188rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-9 {
     font-size: 0.5625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-10 {
   font-size: 0.46875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-10 {
     font-size: 0.625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-11 {
   font-size: 0.51563rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-11 {
     font-size: 0.6875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-12 {
   font-size: 0.5625rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-12 {
     font-size: 0.75rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-13 {
   font-size: 0.60938rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-13 {
     font-size: 0.8125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-14 {
   font-size: 0.65625rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-14 {
     font-size: 0.875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-15 {
   font-size: 0.70313rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-15 {
     font-size: 0.9375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-16 {
   font-size: 0.75rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-16 {
     font-size: 1rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-17 {
   font-size: 0.79688rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-17 {
     font-size: 1.0625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-18 {
   font-size: 0.84375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-18 {
     font-size: 1.125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-19 {
   font-size: 0.89063rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-19 {
     font-size: 1.1875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-20 {
   font-size: 0.9375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-20 {
     font-size: 1.25rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-21 {
   font-size: 0.98438rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-21 {
     font-size: 1.3125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-22 {
   font-size: 1.03125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-22 {
     font-size: 1.375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-23 {
   font-size: 1.07813rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-23 {
     font-size: 1.4375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-24 {
   font-size: 1.125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-24 {
     font-size: 1.5rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-25 {
   font-size: 1.17188rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-25 {
     font-size: 1.5625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-26 {
   font-size: 1.21875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-26 {
     font-size: 1.625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-27 {
   font-size: 1.26563rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-27 {
     font-size: 1.6875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-28 {
   font-size: 1.3125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-28 {
     font-size: 1.75rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-29 {
   font-size: 1.35938rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-29 {
     font-size: 1.8125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-30 {
   font-size: 1.40625rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-30 {
     font-size: 1.875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-31 {
   font-size: 1.45313rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-31 {
     font-size: 1.9375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-32 {
   font-size: 1.5rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-32 {
     font-size: 2rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-33 {
   font-size: 1.54688rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-33 {
     font-size: 2.0625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-34 {
   font-size: 1.59375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-34 {
     font-size: 2.125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-35 {
   font-size: 1.64063rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-35 {
     font-size: 2.1875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-36 {
   font-size: 1.6875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-36 {
     font-size: 2.25rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-37 {
   font-size: 1.73438rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-37 {
     font-size: 2.3125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-38 {
   font-size: 1.78125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-38 {
     font-size: 2.375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-39 {
   font-size: 1.82813rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-39 {
     font-size: 2.4375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-40 {
   font-size: 1.875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-40 {
     font-size: 2.5rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-41 {
   font-size: 1.92188rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-41 {
     font-size: 2.5625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-42 {
   font-size: 1.96875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-42 {
     font-size: 2.625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-43 {
   font-size: 2.01563rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-43 {
     font-size: 2.6875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-44 {
   font-size: 2.0625rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-44 {
     font-size: 2.75rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-45 {
   font-size: 2.10938rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-45 {
     font-size: 2.8125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-46 {
   font-size: 2.15625rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-46 {
     font-size: 2.875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-47 {
   font-size: 2.20313rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-47 {
     font-size: 2.9375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-48 {
   font-size: 2.25rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-48 {
     font-size: 3rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-49 {
   font-size: 2.29688rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-49 {
     font-size: 3.0625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-50 {
   font-size: 2.34375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-50 {
     font-size: 3.125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-51 {
   font-size: 2.39063rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-51 {
     font-size: 3.1875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-52 {
   font-size: 2.4375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-52 {
     font-size: 3.25rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-53 {
   font-size: 2.48438rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-53 {
     font-size: 3.3125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-54 {
   font-size: 2.53125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-54 {
     font-size: 3.375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-55 {
   font-size: 2.57813rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-55 {
     font-size: 3.4375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-56 {
   font-size: 2.625rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-56 {
     font-size: 3.5rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-57 {
   font-size: 2.67188rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-57 {
     font-size: 3.5625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-58 {
   font-size: 2.71875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-58 {
     font-size: 3.625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-59 {
   font-size: 2.76563rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-59 {
     font-size: 3.6875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-60 {
   font-size: 2.8125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-60 {
     font-size: 3.75rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-61 {
   font-size: 2.85938rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-61 {
     font-size: 3.8125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-62 {
   font-size: 2.90625rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-62 {
     font-size: 3.875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-63 {
   font-size: 2.95313rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-63 {
     font-size: 3.9375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-64 {
   font-size: 3rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-64 {
     font-size: 4rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-65 {
   font-size: 3.04688rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-65 {
     font-size: 4.0625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-66 {
   font-size: 3.09375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-66 {
     font-size: 4.125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-67 {
   font-size: 3.14063rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-67 {
     font-size: 4.1875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-68 {
   font-size: 3.1875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-68 {
     font-size: 4.25rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-69 {
   font-size: 3.23438rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-69 {
     font-size: 4.3125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-70 {
   font-size: 3.28125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-70 {
     font-size: 4.375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-71 {
   font-size: 3.32813rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-71 {
     font-size: 4.4375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-72 {
   font-size: 3.375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-72 {
     font-size: 4.5rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-73 {
   font-size: 3.42188rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-73 {
     font-size: 4.5625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-74 {
   font-size: 3.46875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-74 {
     font-size: 4.625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-75 {
   font-size: 3.51563rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-75 {
     font-size: 4.6875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-76 {
   font-size: 3.5625rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-76 {
     font-size: 4.75rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-77 {
   font-size: 3.60938rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-77 {
     font-size: 4.8125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-78 {
   font-size: 3.65625rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-78 {
     font-size: 4.875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-79 {
   font-size: 3.70313rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-79 {
     font-size: 4.9375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-80 {
   font-size: 3.75rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-80 {
     font-size: 5rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-81 {
   font-size: 3.79688rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-81 {
     font-size: 5.0625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-82 {
   font-size: 3.84375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-82 {
     font-size: 5.125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-83 {
   font-size: 3.89063rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-83 {
     font-size: 5.1875rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-84 {
   font-size: 3.9375rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-84 {
     font-size: 5.25rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-85 {
   font-size: 3.98438rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-85 {
     font-size: 5.3125rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-86 {
   font-size: 4.03125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-86 {
     font-size: 5.375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-87 {
   font-size: 4.07813rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-87 {
     font-size: 5.4375rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-88 {
   font-size: 4.125rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-88 {
     font-size: 5.5rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-89 {
   font-size: 4.17188rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-89 {
     font-size: 5.5625rem;
   }
 }
 
-/* line 34, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .size-90 {
   font-size: 4.21875rem;
 }
 
 @media (min-width: 576px) {
-  /* line 34, src/sass/main.scss */
+  /* line 33, src/sass/main.scss */
   .size-90 {
     font-size: 5.625rem;
   }
@@ -10617,14 +10617,45 @@ img {
 /* line 1, src/sass/_site.scss */
 .panel {
   height: 100vh;
+  position: relative;
 }
 
-/* line 5, src/sass/_site.scss */
+/* line 6, src/sass/_site.scss */
 .full-screen {
   height: 100vh;
 }
 
-/* line 9, src/sass/_site.scss */
+/* line 10, src/sass/_site.scss */
+.next-panel-link {
+  position: absolute;
+  bottom: 1em;
+  left: 50%;
+  margin-left: -20px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #127075;
+  text-align: center;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* line 24, src/sass/_site.scss */
+.next-panel-link:before {
+  font-size: 24px;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  content: "\f078";
+  color: #fff;
+}
+
+/* line 32, src/sass/_site.scss */
 #words-drop-section {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -10637,13 +10668,13 @@ img {
   overflow: hidden;
 }
 
-/* line 21, src/sass/_site.scss */
+/* line 44, src/sass/_site.scss */
 #words-drop-section img {
   position: relative;
   z-index: 100;
 }
 
-/* line 26, src/sass/_site.scss */
+/* line 49, src/sass/_site.scss */
 #words-drop-section .text {
   font-size: 1em;
   -webkit-transform: rotate(90deg);
@@ -10654,7 +10685,7 @@ img {
           animation-name: text-drop;
 }
 
-/* line 36, src/sass/_site.scss */
+/* line 59, src/sass/_site.scss */
 #bio-section .line-1 {
   font-size: 2.5rem;
   margin-bottom: 1em;
@@ -10663,28 +10694,28 @@ img {
   font-weight: bold;
 }
 
-/* line 42, src/sass/_site.scss */
+/* line 65, src/sass/_site.scss */
 #bio-section .line-2 {
   font-size: 1rem;
   -webkit-animation-delay: .5s;
           animation-delay: .5s;
 }
 
-/* line 46, src/sass/_site.scss */
+/* line 69, src/sass/_site.scss */
 #bio-section .line-3 {
   font-size: 1.4rem;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-/* line 50, src/sass/_site.scss */
+/* line 73, src/sass/_site.scss */
 #bio-section .line-4 {
   font-size: 1.8rem;
   -webkit-animation-delay: 1.5s;
           animation-delay: 1.5s;
 }
 
-/* line 54, src/sass/_site.scss */
+/* line 77, src/sass/_site.scss */
 #bio-section .line-5 {
   font-size: 2rem;
   -webkit-transform: translate(0, -1rem);
@@ -10694,7 +10725,7 @@ img {
           animation-delay: 2s;
 }
 
-/* line 61, src/sass/_site.scss */
+/* line 84, src/sass/_site.scss */
 #bio-section .to-show {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
@@ -10705,73 +10736,71 @@ img {
   opacity: 0;
 }
 
-/* line 69, src/sass/_site.scss */
+/* line 92, src/sass/_site.scss */
 #bio-section.visited .to-show {
   -webkit-animation-name: text-present-1;
           animation-name: text-present-1;
 }
 
-/* line 79, src/sass/_site.scss */
+/* line 101, src/sass/_site.scss */
 .perspective {
   position: relative;
   -webkit-perspective: 800px;
           perspective: 800px;
   -webkit-perspective-origin: 50% 100px;
           perspective-origin: 50% 100px;
-  width: 200px;
-  height: 200px;
   /* 	.link{
-	position: absolute;
-	display: block;
-	z-index: 100;
-}
-.link-top{
-	top: 0;
-	left: 0;
-	right: 0;
-	border-top: 100px solid transparent;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-}
-.link-right{
-	top: 0;
-	right: 0;
-	bottom: 0;
-	border-right: 100px solid transparent;
-	border-top: 100px solid transparent;
-	border-bottom: 100px solid transparent;
-}
-.link-bottom{
-	left: 0;
-	right: 0;
-	bottom: 0;
-	border-bottom: 100px solid transparent;
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-}
-.link-left{
-	left: 0;
-	top: 0;
-	bottom: 0;
-	border-left: 100px solid transparent;
-	border-top: 100px solid transparent;
-	border-bottom: 100px solid transparent;
-} */
+		position: absolute;
+		display: block;
+		z-index: 100;
+	}
+	.link-top{
+		top: 0;
+		left: 0;
+		right: 0;
+		border-top: 100px solid transparent;
+		border-left: 100px solid transparent;
+		border-right: 100px solid transparent;
+	}
+	.link-right{
+		top: 0;
+		right: 0;
+		bottom: 0;
+		border-right: 100px solid transparent;
+		border-top: 100px solid transparent;
+		border-bottom: 100px solid transparent;
+	}
+	.link-bottom{
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border-bottom: 100px solid transparent;
+		border-left: 100px solid transparent;
+		border-right: 100px solid transparent;
+	}
+	.link-left{
+		left: 0;
+		top: 0;
+		bottom: 0;
+		border-left: 100px solid transparent;
+		border-top: 100px solid transparent;
+		border-bottom: 100px solid transparent;
+	} */
 }
 
-/* line 126, src/sass/_site.scss */
+/* line 146, src/sass/_site.scss */
 .cube {
-  /*  */
   -webkit-animation-name: spinning;
           animation-name: spinning;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   position: relative;
-  width: 100%;
+  margin: 50px auto;
+  width: 200px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform-origin: center center;
@@ -10780,7 +10809,7 @@ img {
   transition: all .5s;
 }
 
-/* line 137, src/sass/_site.scss */
+/* line 158, src/sass/_site.scss */
 .cube > div {
   position: absolute;
   width: 100%;
@@ -10796,32 +10825,32 @@ img {
           align-items: center;
 }
 
-/* line 145, src/sass/_site.scss */
+/* line 166, src/sass/_site.scss */
 .cube .name {
   display: inline-block;
   padding: .1em .5em;
-  background: rgba(218, 58, 63, 0.7);
+  background: rgba(51, 51, 51, 0.7);
   color: #fff;
   border-radius: .5em;
   font-weight: 300;
   font-size: 34px;
 }
 
-/* line 155, src/sass/_site.scss */
+/* line 176, src/sass/_site.scss */
 .cube .front-pane {
   -webkit-transform: translateZ(100px);
           transform: translateZ(100px);
   background: rgba(249, 236, 208, 0.9);
 }
 
-/* line 159, src/sass/_site.scss */
+/* line 180, src/sass/_site.scss */
 .cube .back-pane {
   -webkit-transform: translateZ(-100px) rotateY(180deg);
           transform: translateZ(-100px) rotateY(180deg);
   background: rgba(18, 112, 117, 0.9);
 }
 
-/* line 163, src/sass/_site.scss */
+/* line 184, src/sass/_site.scss */
 .cube .right-pane {
   -webkit-transform: rotateY(-270deg) translateX(100px);
           transform: rotateY(-270deg) translateX(100px);
@@ -10830,7 +10859,7 @@ img {
   background: rgba(127, 205, 196, 0.8);
 }
 
-/* line 169, src/sass/_site.scss */
+/* line 190, src/sass/_site.scss */
 .cube .left-pane {
   -webkit-transform-origin: top left;
           transform-origin: top left;
@@ -10839,7 +10868,7 @@ img {
   background: rgba(239, 164, 75, 0.8);
 }
 
-/* line 174, src/sass/_site.scss */
+/* line 195, src/sass/_site.scss */
 .cube .top-pane {
   -webkit-transform: rotateX(-90deg) translateY(-100px);
           transform: rotateX(-90deg) translateY(-100px);
@@ -10848,11 +10877,30 @@ img {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* line 179, src/sass/_site.scss */
+/* line 200, src/sass/_site.scss */
 .cube .bottom-pane {
   -webkit-transform: rotateX(90deg) translateY(100px);
           transform: rotateX(90deg) translateY(100px);
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 208, src/sass/_site.scss */
+.splash {
+  text-align: center;
+  margin-top: -100px;
+}
+
+/* line 211, src/sass/_site.scss */
+.splash .site-name {
+  font-size: 42px;
+  font-weight: 700;
+  color: #DA3A3F;
+}
+
+/* line 216, src/sass/_site.scss */
+.splash h1 {
+  font-size: 36px;
+  color: #127075;
 }
