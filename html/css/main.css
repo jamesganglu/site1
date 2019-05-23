@@ -10764,6 +10764,49 @@ img {
 }
 
 /* line 117, src/sass/_site.scss */
+#skills-map {
+  /* .the-grid{
+		display: grid;
+		grid-template-columns:30%;
+		grid-template-rows:auto;
+		grid-column-gap:10px;
+		grid-row-gap:10px;
+		justify-items:stretch;
+		align-items:center;
+	} */
+}
+
+/* line 128, src/sass/_site.scss */
+#skills-map .the-grid {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 2, node_modules/bootstrap/scss/mixins/_clearfix.scss */
+#skills-map .the-grid::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/* line 133, src/sass/_site.scss */
+#skills-map .the-grid > div {
+  width: 50%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 144, src/sass/_site.scss */
 .perspective {
   position: relative;
   -webkit-perspective: 800px;
@@ -10809,7 +10852,7 @@ img {
 	} */
 }
 
-/* line 162, src/sass/_site.scss */
+/* line 189, src/sass/_site.scss */
 .cube {
   -webkit-animation-name: spinning;
           animation-name: spinning;
@@ -10830,7 +10873,7 @@ img {
   transition: all .5s;
 }
 
-/* line 174, src/sass/_site.scss */
+/* line 201, src/sass/_site.scss */
 .cube > div {
   position: absolute;
   width: 100%;
@@ -10846,7 +10889,7 @@ img {
           align-items: center;
 }
 
-/* line 182, src/sass/_site.scss */
+/* line 209, src/sass/_site.scss */
 .cube .name {
   display: inline-block;
   padding: .1em .5em;
@@ -10857,21 +10900,21 @@ img {
   font-size: 34px;
 }
 
-/* line 192, src/sass/_site.scss */
+/* line 219, src/sass/_site.scss */
 .cube .front-pane {
   -webkit-transform: translateZ(100px);
           transform: translateZ(100px);
   background: rgba(249, 236, 208, 0.9);
 }
 
-/* line 196, src/sass/_site.scss */
+/* line 223, src/sass/_site.scss */
 .cube .back-pane {
   -webkit-transform: translateZ(-100px) rotateY(180deg);
           transform: translateZ(-100px) rotateY(180deg);
   background: rgba(18, 112, 117, 0.9);
 }
 
-/* line 200, src/sass/_site.scss */
+/* line 227, src/sass/_site.scss */
 .cube .right-pane {
   -webkit-transform: rotateY(-270deg) translateX(100px);
           transform: rotateY(-270deg) translateX(100px);
@@ -10880,7 +10923,7 @@ img {
   background: rgba(127, 205, 196, 0.8);
 }
 
-/* line 206, src/sass/_site.scss */
+/* line 233, src/sass/_site.scss */
 .cube .left-pane {
   -webkit-transform-origin: top left;
           transform-origin: top left;
@@ -10889,7 +10932,7 @@ img {
   background: rgba(239, 164, 75, 0.8);
 }
 
-/* line 211, src/sass/_site.scss */
+/* line 238, src/sass/_site.scss */
 .cube .top-pane {
   -webkit-transform: rotateX(-90deg) translateY(-100px);
           transform: rotateX(-90deg) translateY(-100px);
@@ -10898,7 +10941,7 @@ img {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* line 216, src/sass/_site.scss */
+/* line 243, src/sass/_site.scss */
 .cube .bottom-pane {
   -webkit-transform: rotateX(90deg) translateY(100px);
           transform: rotateX(90deg) translateY(100px);
@@ -10907,20 +10950,20 @@ img {
   background: rgba(255, 255, 255, 0.9);
 }
 
-/* line 224, src/sass/_site.scss */
+/* line 250, src/sass/_site.scss */
 .splash {
   text-align: center;
   margin-top: -100px;
 }
 
-/* line 227, src/sass/_site.scss */
+/* line 253, src/sass/_site.scss */
 .splash .site-name {
   font-size: 42px;
   font-weight: 700;
   color: #DA3A3F;
 }
 
-/* line 232, src/sass/_site.scss */
+/* line 258, src/sass/_site.scss */
 .splash h1 {
   font-size: 36px;
   color: #127075;
