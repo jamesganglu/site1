@@ -19,6 +19,12 @@ $(function(){
 		afterRender:function() {}
 		});
 
+
+	$('.next-panel-link').on('click',function(e){
+		e.preventDefault();
+		$.scrollify.next();
+	})
+
 	var skills = [
 		'HTML', 
 		'HTML 5', 
@@ -57,13 +63,13 @@ $(function(){
 
 	var backgroundTextColors = ['#00ff00', '#fff', '#ffff00'];
 
-	/*backgroundAnimation({
-		container:'#big-head',
+	backgroundAnimation({
+		container:'#words-drop-section',
 		speed:10000,
-		density:40,
+		density:60,
 		text:skills,
 		colors:backgroundTextColors
-	});*/
+	});/**/
 })
 
 function backgroundAnimation(obj){
@@ -83,7 +89,6 @@ function backgroundAnimation(obj){
 			skillsDom.push(dom)
 		}
 
-		
 		setInterval(function(){
 			var dom = skillsDom[Math.floor(Math.random()*skillsCount)]
 			var domStyle = {

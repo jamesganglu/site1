@@ -31,3 +31,22 @@
 	}
 } 
 
+@keyframes rolling{
+	0% {
+		transform:rotate3d(0,0,0,0);
+	}
+
+	100% {
+		transform:rotate3d(.2,.5,.8,360deg);
+	}
+} 
+
+@keyframes spinning{
+	0% {
+		transform:rotateY(0deg);
+	}
+
+	100% {
+		transform:rotateY(360deg);
+	}
+} 
