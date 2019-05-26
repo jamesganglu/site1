@@ -131,13 +131,48 @@
 		height: 100%;
 		width: 100%;
 		>div{
-			width: 50%;
+			width: 33.333%;
 			float: left;
 			display: flex;
-			height: 50%;
+			height: 33.333%;
 			justify-content:center;
 			align-items:center;
+			&:hover{
+				border:1px solid #ccc;
+				background: #eee;
+			}
 		}
+	}
+}
+
+#greeting{
+	.portrait{
+		width: 50%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom:0;
+		display: flex;
+		align-items:flex-end;
+		background: #eee;
+	}
+	.text{
+		width: 50%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom:0;
+		display: flex;
+		align-items:center;
+		font-size: 24px;
+	}
+
+	h1{
+		font-size: 60px;
+		margin-bottom: 1em;
+		font-weight: bold;
+		color: theme-color(primary);
+		font-family: $font-family-bold;
 	}
 }
 
