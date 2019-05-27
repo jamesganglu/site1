@@ -63,13 +63,13 @@ $(function(){
 
 	var backgroundTextColors = ['#00ff00', '#fff', '#ffff00'];
 
-	backgroundAnimation({
+	/* backgroundAnimation({
 		container:'#words-drop-section',
 		speed:10000,
 		density:60,
 		text:skills,
 		colors:backgroundTextColors
-	});/**/
+	}); */
 })
 
 function backgroundAnimation(obj){

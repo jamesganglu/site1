@@ -1171,14 +1171,13 @@ $(function () {
   });
   var skills = ['HTML', 'HTML 5', 'CSS', 'CSS3', 'XML', 'JSON', 'JavaScript', 'ES6', 'JSX', 'PHP', 'ASP', 'JSP', 'MySQL', 'Node.js', 'Sass', 'Less', 'Grunt', 'Gulp', 'Webpack', 'NPM', 'Responsive Web Design', 'WCAG 2.0', 'Git', 'SVN', 'Bootstrap', 'Foundation Framework', 'Cordova', 'Backbone', 'Underscore', 'jQuery', 'React', 'SQL Server', 'MySQL'];
   var backgroundTextColors = ['#00ff00', '#fff', '#ffff00'];
-  backgroundAnimation({
-    container: '#words-drop-section',
-    speed: 10000,
-    density: 60,
-    text: skills,
-    colors: backgroundTextColors
-  });
-  /**/
+  /* backgroundAnimation({
+  	container:'#words-drop-section',
+  	speed:10000,
+  	density:60,
+  	text:skills,
+  	colors:backgroundTextColors
+  }); */
 });
 
 function backgroundAnimation(obj) {
