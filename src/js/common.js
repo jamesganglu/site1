@@ -1,4 +1,38 @@
+
+
 $(function(){
+	var canvas = document.querySelector('#animations-section canvas');
+	var c = canvas.getContext('2d');
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
+	/*
+		1. retangles
+		2. lines
+		3. arcs/circles
+		4. bezier curves
+		5. images
+		6. text
+	 */
+
+	/*c.fillStyle = "#DA3A3F";
+	c.fillRect(100,100,100,100);
+	//line
+	c.beginPath();
+	c.moveTo(50, 300);
+	c.lineTo(300, 100);
+	c.lineTo(400,300);
+	c.strokeStyle = "#127075";
+	c.stroke();
+
+	//arc
+	c.beginPath(); //otherwise, the line will continue the previous lines
+	c.arc(300,300, 30, 0, Math.PI, false);
+	c.stroke();*/
+
+	function animate(){
+		requestAnimationFrame(animate);
+	}
+
 	$.scrollify({
 		section : ".panel",
 		sectionName : "section-name",
@@ -62,14 +96,14 @@ $(function(){
 	];
 
 	var backgroundTextColors = ['#00ff00', '#fff', '#ffff00'];
-
+	/*
 	backgroundAnimation({
 		container:'#words-drop-section',
 		speed:10000,
 		density:60,
 		text:skills,
 		colors:backgroundTextColors
-	});/**/
+	});*/
 })
 
 function backgroundAnimation(obj){

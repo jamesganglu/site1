@@ -37,6 +37,26 @@
 </head>
 <body>
 	<main>
+		<nav aria-label="main navigation">
+			<ul role="menubar" id="appmenu">
+				<li role="menuitem"><a href="#cube-section">Home</a></li>
+				<li role="menuitem">
+					<a href="#skills-map">skills</a>
+					<ul role="menu">
+						<li role="menuitem"><a href="#">Frontend</a></li>
+						<li role="menuitem"><a href="#">Backend</a></li>
+						<li role="menuitem"><a href="#">Tools</a></li>
+					</ul>
+				</li>
+				<li role="menuitem"><a href="#bio-section">Bio</a></li>
+				<li role="menuitem"><a href="#my-works">My works</a></li>
+			</ul>
+		</nav>
+
+		<section class="panel d-flex justify-content-center align-items-center" id="animations-section">
+			<canvas></canvas>
+		</section>
+
 		<section class="panel d-flex justify-content-center align-items-center" id="skills-map">
 			<!-- <div class="container-fluid">
 				<div class="row">
@@ -55,6 +75,7 @@
 				<div class="item">Framework</div>
 			</div>
 		</section>
+
 		<section class="panel d-flex justify-content-center align-items-center" id="cube-section">
 			<div class="splash">
 				<div class="site-name">Whoomp!</div>
@@ -72,12 +93,13 @@
 			</div>
 			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
 		</section>
+
 		<section class="panel" id="words-drop-section">
 			<h2>Web Front end developer</h2>
 			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
 		</section>
 
-		<section id="bio-section" class="panel full-screen d-flex justify-content-center align-items-center" style="background: #ccc;">
+		<section id="bio-section" class="panel full-screen d-flex justify-content-center align-items-center">
 			<div class="d-flex align-items-center">
 				<div>
 					<div style="max-width: 150px">
@@ -96,12 +118,12 @@
 			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
 		</section>
 
-		<section class="panel full-screen d-flex justify-content-center align-items-center" style="background: #ccc;">
+		<section id="my-works" class="panel full-screen d-flex justify-content-center align-items-center">
 			<h1>this is about works</h1>
 			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
 		</section>
 
-		<section class="panel full-screen d-flex justify-content-center align-items-center" style="background: #eee;">
+		<section id="my-experience" class="panel full-screen d-flex justify-content-center align-items-center">
 			<h1>this is about expereince</h1>
 			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
 		</section>

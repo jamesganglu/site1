@@ -10968,3 +10968,53 @@ img {
   font-size: 36px;
   color: #127075;
 }
+
+/* line 265, src/sass/_site.scss */
+#animations-section canvas {
+  border: 1px solid #ccc;
+  /*height: 100%;
+		width: 100%;  */
+}
+
+/* line 272, src/sass/_site.scss */
+#appmenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 283, src/sass/_site.scss */
+#appmenu a {
+  display: block;
+}
+
+/* line 287, src/sass/_site.scss */
+#appmenu > li a {
+  padding: .5em 1em;
+}
+
+/* line 291, src/sass/_site.scss */
+#appmenu > li:hover a, #appmenu > li:focus a {
+  background: #eee;
+}
+
+/* line 296, src/sass/_site.scss */
+#appmenu [role="menu"] {
+  display: none;
+}
+
+/* line 301, src/sass/_site.scss */
+#appmenu [aria-expended="true"] [role="menu"] {
+  display: block;
+}

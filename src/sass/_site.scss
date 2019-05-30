@@ -260,3 +260,46 @@
 		color: theme-color(primary);
 	}
 }
+
+#animations-section{
+	canvas{
+		border:1px solid #ccc;
+		/*height: 100%;
+		width: 100%;  */
+	}
+}
+
+#appmenu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	display: flex;
+	justify-content:space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	a{
+		display: block;
+	}
+	>li{
+		a{
+			padding: .5em 1em;
+		}
+		&:hover,&:focus{
+			a{
+				background:#eee;
+			}
+		}
+	}
+	[role="menu"]{
+		display: none;
+	}
+
+	[aria-expended="true"]{
+		[role="menu"]{
+			display: block;
+		}
+	}
+}

@@ -1145,7 +1145,219 @@ if touchScroll is false - update index
 });
 "use strict";
 
+console.log('init');
+"use strict";
+
+var appsMenuItems = document.querySelectorAll('#appmenu > li');
+var subMenuItems = document.querySelectorAll('#appmenu > li li');
+var keys = {
+  tab: 9,
+  enter: 13,
+  esc: 27,
+  space: 32,
+  left: 37,
+  up: 38,
+  right: 39,
+  down: 40
+};
+var currentIndex, subIndex;
+
+var gotoIndex = function gotoIndex(idx) {
+  if (idx == appsMenuItems.length) {
+    idx = 0;
+  } else if (idx < 0) {
+    idx = appsMenuItems.length - 1;
+  }
+
+  appsMenuItems[idx].focus();
+  currentIndex = idx;
+};
+
+var gotoSubIndex = function gotoSubIndex(menu, idx) {
+  var items = menu.querySelectorAll('li');
+
+  if (idx == items.length) {
+    idx = 0;
+  } else if (idx < 0) {
+    idx = items.length - 1;
+  }
+
+  items[idx].focus();
+  subIndex = idx;
+};
+
+Array.prototype.forEach.call(appsMenuItems, function (el, i) {
+  if (0 == i) {
+    el.setAttribute('tabindex', '0');
+    el.addEventListener("focus", function () {
+      currentIndex = 0;
+    });
+  } else {
+    el.setAttribute('tabindex', '-1');
+  }
+
+  el.addEventListener("focus", function () {
+    subIndex = 0;
+    Array.prototype.forEach.call(appsMenuItems, function (el, i) {
+      el.setAttribute('aria-expanded', "false");
+    });
+  });
+  el.addEventListener("click", function (event) {
+    if (this.getAttribute('aria-expanded') == 'false' || this.getAttribute('aria-expanded') == null) {
+      this.setAttribute('aria-expanded', "true");
+    } else {
+      this.setAttribute('aria-expanded', "false");
+    }
+
+    event.preventDefault();
+    return false;
+  });
+  el.addEventListener("keydown", function (event) {
+    var prevdef = false;
+
+    switch (event.keyCode) {
+      case keys.right:
+        gotoIndex(currentIndex + 1);
+        prevdef = true;
+        break;
+
+      case keys.left:
+        gotoIndex(currentIndex - 1);
+        prevdef = true;
+        break;
+
+      case keys.tab:
+        if (event.shiftKey) {
+          gotoIndex(currentIndex - 1);
+        } else {
+          gotoIndex(currentIndex + 1);
+        }
+
+        prevdef = true;
+        break;
+
+      case keys.enter:
+      case keys.down:
+        this.click();
+        subindex = 0;
+        gotoSubIndex(this.querySelector('ul'), 0);
+        prevdef = true;
+        break;
+
+      case keys.up:
+        this.click();
+        var submenu = this.querySelector('ul');
+        subindex = submenu.querySelectorAll('li').length - 1;
+        gotoSubIndex(submenu, subindex);
+        prevdef = true;
+        break;
+
+      case keys.esc:
+        document.querySelector('#escape').setAttribute('tabindex', '-1');
+        document.querySelector('#escape').focus();
+        prevdef = true;
+    }
+
+    if (prevdef) {
+      event.preventDefault();
+    }
+  });
+});
+Array.prototype.forEach.call(subMenuItems, function (el, i) {
+  el.setAttribute('tabindex', '-1');
+  el.addEventListener("keydown", function (event) {
+    switch (event.keyCode) {
+      case keys.tab:
+        if (event.shiftKey) {
+          gotoIndex(currentIndex - 1);
+        } else {
+          gotoIndex(currentIndex + 1);
+        }
+
+        prevdef = true;
+        break;
+
+      case keys.right:
+        gotoIndex(currentIndex + 1);
+        prevdef = true;
+        break;
+
+      case keys.left:
+        gotoIndex(currentIndex - 1);
+        prevdef = true;
+        break;
+
+      case keys.esc:
+        gotoIndex(currentIndex);
+        prevdef = true;
+        break;
+
+      case keys.down:
+        gotoSubIndex(this.parentNode, subIndex + 1);
+        prevdef = true;
+        break;
+
+      case keys.up:
+        gotoSubIndex(this.parentNode, subIndex - 1);
+        prevdef = true;
+        break;
+
+      case keys.enter:
+      case keys.space:
+        alert(this.innerText);
+        prevdef = true;
+        break;
+    }
+
+    if (prevdef) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    return false;
+  });
+  el.addEventListener("click", function (event) {
+    alert(this.innerHTML);
+    event.preventDefault();
+    event.stopPropagation();
+    return false;
+  });
+});
+"use strict";
+
 $(function () {
+  var canvas = document.querySelector('#animations-section canvas');
+  var c = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  /*
+  	1. retangles
+  	2. lines
+  	3. arcs/circles
+  	4. bezier curves
+  	5. images
+  	6. text
+   */
+
+  /*c.fillStyle = "#DA3A3F";
+  c.fillRect(100,100,100,100);
+  //line
+  c.beginPath();
+  c.moveTo(50, 300);
+  c.lineTo(300, 100);
+  c.lineTo(400,300);
+  c.strokeStyle = "#127075";
+  c.stroke();
+  
+  //arc
+  c.beginPath(); //otherwise, the line will continue the previous lines
+  c.arc(300,300, 30, 0, Math.PI, false);
+  c.stroke();*/
+
+  function animate() {
+    requestAnimationFrame(animate);
+  }
+
   $.scrollify({
     section: ".panel",
     sectionName: "section-name",
@@ -1171,14 +1383,14 @@ $(function () {
   });
   var skills = ['HTML', 'HTML 5', 'CSS', 'CSS3', 'XML', 'JSON', 'JavaScript', 'ES6', 'JSX', 'PHP', 'ASP', 'JSP', 'MySQL', 'Node.js', 'Sass', 'Less', 'Grunt', 'Gulp', 'Webpack', 'NPM', 'Responsive Web Design', 'WCAG 2.0', 'Git', 'SVN', 'Bootstrap', 'Foundation Framework', 'Cordova', 'Backbone', 'Underscore', 'jQuery', 'React', 'SQL Server', 'MySQL'];
   var backgroundTextColors = ['#00ff00', '#fff', '#ffff00'];
+  /*
   backgroundAnimation({
-    container: '#words-drop-section',
-    speed: 10000,
-    density: 60,
-    text: skills,
-    colors: backgroundTextColors
-  });
-  /**/
+  	container:'#words-drop-section',
+  	speed:10000,
+  	density:60,
+  	text:skills,
+  	colors:backgroundTextColors
+  });*/
 });
 
 function backgroundAnimation(obj) {

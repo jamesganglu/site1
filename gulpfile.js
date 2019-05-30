@@ -38,7 +38,7 @@ var paths = {
 	input: 'src/',
 	output: 'dist/',
 	scripts: {
-		input: ['src/js/libs/*', 'src/js/plugins/*', 'src/js/common.js'],
+		input: ['src/js/libs/*', 'src/js/plugins/*', 'src/js/modules/*', 'src/js/common.js'],
 		polyfills: '.polyfill.js',
 		output: './js/',
 		temp:'html/js/'
@@ -71,6 +71,29 @@ var jsTask = function(cb){
 	.pipe(header(banner.min, {package: package}))
 	.pipe(dest(paths.scripts.output))
 }
+
+
+/*var compilejs = function(cb) {
+  var bundler = watchify(browserify('./src/index.js', { debug: true }).transform(babel));
+
+  function rebundle() {
+    bundler.bundle()
+      .on('error', function(err) { console.error(err); this.emit('end'); })
+      .pipe(source('build.js'))
+      .pipe(buffer())
+      .pipe(sourcemaps.init({ loadMaps: true }))
+      .pipe(sourcemaps.write('./'))
+      .pipe(gulp.dest('./build'));
+  }
+
+	bundler.on('update', function() {
+	  console.log('-> bundling...');
+	  rebundle();
+	});
+
+  rebundle();
+  cb();
+}*/
 
 var styleTask = function(cb){
 	return src(paths.styles.input, {sourcemaps:true})

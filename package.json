@@ -1,5 +1,5 @@
 {
-  "name": "James website",
+  "name": "Jameswebsite",
   "version": "1.0.0",
   "description": "james, the web builder",
   "main": "index.js",
@@ -13,18 +13,18 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gulp": "^4.0.1",
     "npm": "^6.9.0"
   },
   "repository": {
     "type": "git",
-    "url": "http://link-to-your-git-repo.com"
+    "url": "https://github.com/jamesganglu/site1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.26.5",
-    "gulp": "^4.0.1",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
@@ -38,6 +38,8 @@
     "gulp-uglify": "^3.0.2",
     "gulp-uglify-es": "^1.0.4",
     "jshint": "^2.10.2",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
   }
 }
