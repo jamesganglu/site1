@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">    
+
+	<meta name="twitter:card" content="James, the web builder">
+	<meta name="twitter:site" content="@publisher_handle">
+	<meta name="twitter:title" content="James, the web builder">
+	<meta name="twitter:description" content="James, the web builder">
+	<meta name="twitter:creator" content="James Gang Lu">
+	<meta name="twitter:image" content="http://www.whoomp.ca/image.jpg">
+
+	<meta property="og:title" content="James, the web builder" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.whoomp.ca/" />
+	<meta property="og:image" content="http://www.whoomp.ca/image.jpg" />
+	<meta property="og:description" content="James, the web builder" /> 
+	<meta property="og:site_name" content="James, the web builder" />
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+	  
+</head>
+<body>
+	<header>
+		<div class="header-bar container">
+			<a class="site-name" href="/">
+				<span class="logo"><img src="images/icon.svg" alt=""></span> 
+				<span class="name">
+					<span>W</span>
+					<span>h</span>
+					<span>o</span>
+					<span>o</span>
+					<span>m</span>
+					<span>p</span>
+					<span>!</span>
+					<span class="alt">ui/ux</span>
+				</span>
+			</a>
+			<div class="btns">
+				<button class="menu-toggle">
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="sr-only">Menu</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<nav class="primary-nav">
+		<ul>
+			<li><a href="skills.html">What I can do</a></li>
+			<li><a href="projects.html">What I had done</a></li>
+			<li><a href="resume.html">My resume</a></li>
+			<li><a href="photos.html">What are in my life</a></li>
+		</ul>
+	</nav>
+	<main class="container">
+		<section class="panel" id="projects">
+            <h1>The most recent projects I work on</h1>
+            <div id="projects-holder" class="row">
+
+            </div>
+		</section>
+	</main>
+
+    <script type="text/javascript" src="js/bundle.js"></script>
+    <script>
+        (function($){
+            var projects = [
+                {name:'Alberta Blue Cross Balance', image:'abc.png', link:'http://balance.ab.bluecross.ca', desc:''},
+                {name:'antibe therapeutics', image:'antibe.png', link:'http://https://antibethera.com/', desc:''},
+                {name:'Citytv - Bachelor', image:'bechelor.png', desc:'bechelor'},
+                {name:'Janssen BioAdvance', image:'bioadvance.png', link:'https://www.bioadvancemember.ca/', desc:''},
+                {name:'Brightworks', image:'brightworks.png', link:'https://brightworks.ca/', desc:''},
+                {name:'Canadian Management Centre', image:'cmc.png', link:'https://cmcoutperform.com/home', desc:''},
+                {name:'Cordran Tape', image:'cordrantape.png', desc:'For salesman presentation used only'},
+                {name:'cumberland', image:'cumberland.png', link:'https://cumberlandprivate.com/', desc:''},
+                {name:'Ferguson Deacon Taws LLP', image:'fdt.png', link:'https://www.fdtlaw.ca/', desc:''},
+                {name:'Gilead Rheumatoid Arthritis', image:'gilead.png', desc:'Internal used only, no public link'},
+                {name:'Sportnet contest', image:'honda.png',  desc:'Contest expired, no link'},
+                {name:'Gilead IBD', image:'ibd.png', link:'', desc:'Internal used only, no public link'},
+                {name:'Gilead JAK-STAT', image:'jak.png', desc:'Internal used only, no public link'},
+                //{name:'knowledge', image:'knowledge.jpg', link:''},
+                {name:'newmom.ca', image:'newmom.png', link:'https://newmom.ca/', desc:''},
+                {name:'Oxford properties', image:'oxford.png',   desc:''},
+                {name:'Seysara', image:'seysara.png',   desc:'Internal used only, no public link'},
+                {name:'my Wellness', image:'sunlife.png',  desc:'member only, no public link'},
+                {name:'BT contest', image:'werther.png',  desc:'Contest expired, no link'},
+                {name:'Osgoode Hall Law School', image:'yorku.png',  desc:'Internal used only, no public link'},
+                {name:'Bombardier Career', image:'bombardier.png', link:'https://careers.bombardier.com/', desc:''},
+            ]
+
+            
+            window.onload = function(){
+				var projectsCount = projects.length;
+				var projectsHolder = document.querySelector('#projects-holder');
+				var order = 0;
+                for(var i=0; i<projectsCount; i++){					
+					item = document.createElement('div');
+					item.setAttribute('class', 'project tile-init order-'+order);
+                    
+                    var itemName;
+					if(projects[i].link == undefined){
+						itemName = document.createElement('span');
+					}else{
+						itemName = document.createElement('a');
+						itemName.setAttribute('href',projects[i].link)
+						itemName.setAttribute('target','_blank')
+					}
+					itemName.innerHTML = projects[i].name;
+					itemName.setAttribute('class', 'name');
+					
+					var itemImageDiv = document.createElement('a');
+						itemImageDiv.setAttribute('class', 'thumbnail');
+						itemImageDiv.setAttribute('href', 'images/large/'+projects[i].image);
+                    var itemImage = document.createElement('img');
+						itemImage.src = 'images/mini/'+projects[i].image;
+					
+					itemImageDiv.appendChild(itemImage);
+					if(projects[i].desc !== ""){
+						var itemDesc = document.createElement('span');
+						itemDesc.setAttribute('class', 'desc');
+						itemDesc.innerText = projects[i].desc;
+						itemImageDiv.appendChild(itemDesc);
+					}
+
+						
+					
+					
+
+                    item.appendChild(itemName);
+                    item.appendChild(itemImageDiv);
+					var cell = document.createElement('div');
+						cell.setAttribute('class', 'col-sm-6 col-md-4 col-lg-3');
+						cell.appendChild(item);
+					projectsHolder.appendChild(cell);
+
+					order++;
+				}
+				
+				var projectTiles = document.querySelectorAll('.project');
+				var presentCount = 0;
+				var showProjectsTimer = setInterval(function(){
+					projectTiles[presentCount].classList.remove('tile-init');
+					presentCount++;
+					if(presentCount == projectsCount){
+						clearInterval(showProjectsTimer);
+					}
+				},100)
+				
+            }
+
+        })(jQuery)
+
+    </script>
+	
+	<script>
+		window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+		ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+	</script>
+
+	<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg width="220" height="220" xmlns="http://www.w3.org/2000/svg"> 
+ <g>
+  <line stroke="#000" id="svg_3" y2="220" x2="20" y1="0" x1="20" stroke-width="40" fill="none"/>
+  <line stroke="#000" id="svg_5" y2="220" x2="120" y1="0" x1="120" stroke-width="30" fill="none"/>
+  <line stroke="#000" id="svg_7" y2="220" x2="170" y1="0" x1="170" stroke-width="20" fill="none"/>
+  <line stroke="#000" id="svg_8" y2="220" x2="210" y1="0" x1="210" stroke-width="10" fill="none"/>
+  <line stroke="#000" id="svg_13" y2="220" x2="35" y1="0" x1="110" stroke-width="10" fill="none"/>
+  <line stroke="#000" id="svg_14" y2="220" x2="110" y1="0" x1="35" stroke-width="10" fill="none"/>
+ </g>
+</svg>

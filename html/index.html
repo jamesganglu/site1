@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
 	<title></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">    
@@ -36,96 +37,98 @@
 	  
 </head>
 <body>
-	<main>
-		<section class="panel d-flex justify-content-center align-items-center" id="cube-section">
-			<div class="splash">
-				<div class="site-name">Whoomp!</div>
-				<h1>James, the web builder</h1>
-				<div class="perspective">
-					<div class="cube">
-						<div class="top-pane"></div>
-						<div class="bottom-pane"></div>
-						<div class="front-pane"><span class="name">CSS</span></div>
-						<div class="back-pane"><span class="name">HTML</span></div>
-						<div class="left-pane"><span class="name">JS</span></div>
-						<div class="right-pane"><span class="name">HTTP</span></div>
+	<header>
+		<div class="header-bar container">
+			
+			<a class="site-name" href="/">
+				<span class="logo"><img src="images/icon.svg" alt=""></span> 
+				<span class="name">
+					<span>W</span>
+					<span>h</span>
+					<span>o</span>
+					<span>o</span>
+					<span>m</span>
+					<span>p</span>
+					<span>!</span>
+					<span class="alt">ui/ux</span>
+				</span>
+			</a>
+			<div class="btns">
+                <a href="https://www.facebook.com/james.lu.77398" target="_blank"><i class="fab fa-facebook" aria-label="visit my facebook page"></i></a>
+				<a href="https://www.linkedin.com/in/james-lu-1a6aa624/" target="_blank"><i class="fab fa-linkedin" aria-label="visit my linked page"></i></a>
+				<a href="https://www.instagram.com/jamesganglu/" target="_blank"><i class="fab fa-instagram" aria-label="visit my instagram"></i></a>
+				
+				<button class="menu-toggle">
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="sr-only">Menu</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<nav class="primary-nav">
+		<ul>
+			<li><a href="skills.html">What I can do</a></li>
+			<li><a href="projects.html">What I had done</a></li>
+			<li><a href="resume.html">My resume</a></li>
+			<li><a href="photos.html">What are in my life</a></li>
+		</ul>
+	</nav>
+	<main class=" container">
+		<section class="panel" id="cube-section">
+			<div class="intro">
+				<div class="content">
+					<h1 class="line-1 fade-in-line">Hello, I am James Gang Lu</h1>
+					<p class="mb-6 fade-in-line">I am a web designer, full stack developer. And I work for <span class="text-nowrap">anythings about HTML.</span></p>
+					<h2 class="fade-in-line">There are the brief about myself</h2>
+					<ol>
+						<li class="fade-in-line">10 years of professional experience in web front end development.</li>
+						<li class="fade-in-line">Proficient in Javascript, ES6, Javascript Frameworks and Javascript libraries.</li>
+						<li class="fade-in-line">Knowledge of cross browser compatibility, WCAG accessibility compliance, and Responsive web design.</li>
+						<li class="fade-in-line"> Familiar with MVC/MVVM,  RESTful API.</li>
+					</ol>
+				</div>
+			</div>
+			<div class="decor">
+				<div class="the-cube">
+					<div class="perspective">
+						<div class="cube">
+							<div class="top-pane"></div>
+							<div class="bottom-pane"></div>
+							<div class="front-pane"><span class="name">CMS</span></div>
+							<div class="back-pane"><span class="name">HTML</span></div>
+							<div class="left-pane"><span class="name">Angular</span></div>
+							<div class="right-pane"><span class="name">React</span></div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
-		</section>
-		<section class="panel" id="greeting">
-			<h1 class="line-1 line">Hello</h1>
-			<div class="portrait">
-				<div>
-					<img src="images/portrait-t.png" alt="">
+				<div class="my-face" aria-hidden="true">
+					<img src="images/portrait-2.png" alt="">
 				</div>
 			</div>
-			<div class="text">
-				<div>
-					<p class="line-2 line">This is James Gang Lu,</p>
-					<p class="line-3 line">a <strong>web designer,</strong></p>
-					<p class="line-4 line">a <strong>fullstack designer,</strong></p>
-					<p class="line-5 line">a <strong>front end developer,</strong></p>
-					<p class="line-6 line">and a <strong>coding lover :)</strong></p>
-					
-				</div>
-			</div>
-		</section>
-		<section class="panel d-flex justify-content-center align-items-center" id="skills-map">
-			<div class="the-grid">
-				<div class="item">Front end</div>
-				<div class="item">Back end</div>
-				<div class="item">Database</div>
-				<div class="item">Tools</div>
-				<div class="item">Framework</div>
-				<div class="item">CMS</div>
-				<div class="item">IDE</div>
-				<div class="item">Marketing</div>
-				<div class="item">Marketing</div>
-			</div>
-		</section>
-		<section class="panel" id="words-drop-section">
-			<h2>Web Front end developer</h2>
-			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
-		</section>
-
-		<section id="bio-section" class="panel full-screen d-flex justify-content-center align-items-center">
-			<div class="d-flex align-items-center">
-				<div>
-					<div style="max-width: 150px">
-						<img src="images/portrait.png" alt="">
-					</div>
-				</div>
-				<div>
-					<h2 class="line-1 to-show text-primary">James, the web builder</h2>
-					<p class="line-2 to-show">He like music.</p>
-					<p class="line-3 to-show">He like BBQ.</p>
-					<p class="line-4 to-show">He like outdoor living.</p>
-					<p class="line-5 to-show text-secondary">And he like coding!</p>
-				</div>
-			</div>
-
-			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
-		</section>
-
-		<section class="panel full-screen d-flex justify-content-center align-items-center" style="background: #ccc;">
-			<h1>this is about works</h1>
-			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
-		</section>
-
-		<section class="panel full-screen d-flex justify-content-center align-items-center" style="background: #eee;">
-			<h1>this is about expereince</h1>
-			<a href="#" class="next-panel-link"><span class="sr-only">next</span></a>
 		</section>
 	</main>
 
 	<script type="text/javascript" src="js/bundle.js"></script>
+	
 	<script>
-		window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-		ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+		(function(w){
+			var main = document.querySelector('main');
+			var lines = main.querySelectorAll('h1, h2, p, li',);
+			var linesCount = lines.length;
+			var showLineIdx = 0;
+
+			var tmr = setInterval(function(){
+				lines[showLineIdx].classList += ' fade-solid';
+				showLineIdx++;
+				if(showLineIdx == linesCount){
+					clearInterval(tmr);
+				}
+			},200);
+		})(window)
 	</script>
-	<script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
 </body>
 </html>

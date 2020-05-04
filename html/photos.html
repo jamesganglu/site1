@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">    
+
+	<meta name="twitter:card" content="James, the web builder">
+	<meta name="twitter:site" content="@publisher_handle">
+	<meta name="twitter:title" content="James, the web builder">
+	<meta name="twitter:description" content="James, the web builder">
+	<meta name="twitter:creator" content="James Gang Lu">
+	<meta name="twitter:image" content="http://www.whoomp.ca/image.jpg">
+
+	<meta property="og:title" content="James, the web builder" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.whoomp.ca/" />
+	<meta property="og:image" content="http://www.whoomp.ca/image.jpg" />
+	<meta property="og:description" content="James, the web builder" /> 
+	<meta property="og:site_name" content="James, the web builder" />
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/88af54bee3.js" crossorigin="anonymous"></script>
+	  
+</head>
+<body>
+	<header>
+		<div class="header-bar container">
+			<a class="site-name" href="/">
+				<span class="logo"><img src="images/icon.svg" alt=""></span> 
+				<span class="name">
+					<span>W</span>
+					<span>h</span>
+					<span>o</span>
+					<span>o</span>
+					<span>m</span>
+					<span>p</span>
+					<span>!</span>
+				</span>
+			</a>
+			<div class="btns">
+                <a href="https://www.facebook.com/james.lu.77398" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/james-lu-1a6aa624/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                
+                <button class="menu-toggle">
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="icon-bar" aria-hidden="true"></span>
+					<span class="sr-only">Menu</span>
+				</button>
+			</div>
+		</div>
+	</header>
+	<nav class="primary-nav">
+		<ul>
+			<li><a href="skills.html">What I can do</a></li>
+			<li><a href="projects.html">What I had done</a></li>
+			<li><a href="resume.html">My resume</a></li>
+			<li><a href="photos.html">What are in my life</a></li>
+		</ul>
+	</nav>
+	<main class="container">
+		<section class="panel" id="photos">
+            <div data-depth="0.2">first layer</div>
+            <div data-depth="0.6">second layer</div>
+
+		</section>
+	</main>
+
+    <script type="text/javascript" src="js/bundle.js"></script>
+    
+	
+	<script>        
+        (function($){
+            window.onload=function(){
+                var scene = document.querySelector('#photos');
+                var parallaxInstance = new Parallax(scene);
+            }
+        })(jQuery)
+	</script>
+
+	<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+</body>
+</html>

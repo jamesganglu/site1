@@ -115,7 +115,8 @@ var reloadBrowser = function (cb) {
 
 
 var watchSource = function (done) {
-	watch(paths.input,  series(exports.default));
+	watch(paths.scripts.input,  series(jsTask));
+	watch(paths.styles.input,  series(styleTask));
 	done();
 };
 
@@ -124,7 +125,7 @@ var watchHtml = function (done) {
 	done();
 };
 
-exports.default = series(jsTask, styleTask,sayMyName);
+exports.default = series(jsTask, styleTask);
 
 exports.watch = series(
 	exports.default, 

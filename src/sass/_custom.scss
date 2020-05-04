@@ -17,8 +17,19 @@ $spacers: (
     2: ($spacer * .5),
     3: $spacer,
     4: ($spacer * 1.5),
-    5: ($spacer * 3)
+    5: ($spacer * 3),
+    6: ($spacer * 4)
   );
 
-$font-family-base: Raleway, arial;
-$font-family-bold: 'Anton', arial;
+$grays:(
+    'grayef': #efefef,
+    'gray2': #666,
+    'gray9': #999,
+    'grayc': #ccc
+)
+;
+$font-family-base: 'Open Sans', sans-serif;
+$font-family-Oswald: 'Oswald', arial;
+$font-family-condense: 'Open Sans Condensed', arial;
+
+$headerHeight:55px;

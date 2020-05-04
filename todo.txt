@@ -1,0 +1,22 @@
+todo list
+	scrollrama
+	google analytics
+	a/b test
+	script tag attributes
+	customize google map popup
+	scroll down and animate
+	angular deployment
+	fetch photos
+	open api
+	slide slider
+	svg
+	strapi cms
+	ansyn await
+	ci/cd
+	social media
+
+
+asyn function hello(){
+	...
+}
+will return a promise
